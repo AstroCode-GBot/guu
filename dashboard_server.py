@@ -25,7 +25,7 @@ from google.protobuf.json_format import MessageToDict
 
 urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
 
-TEMPLATE_PATH = os.path.join(os.path.dirname(os.path.abspath(__file__)), "MAHIN_CODEX", "index.html")
+TEMPLATE_PATH = os.path.join(os.path.dirname(os.path.abspath(__file__)), "MAHIN-CODEX", "index.html")
 
 OB = "OB55"
 KEY = bytes([89,103,38,116,99,37,68,69,117,104,54,37,90,99,94,56])
